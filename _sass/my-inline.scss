@@ -1,0 +1,14 @@
+// Uncomment to disable dingbat icons below posts
+// hr.dingbat { display: none }
+
+.sidebar a {
+    color: white;
+    border-bottom-color: rgba(255,255,255,0.2);
+    text-decoration-color: rgba(255,255,255,0.2);
+}
+
+.round-image {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
