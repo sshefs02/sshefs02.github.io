@@ -36,7 +36,7 @@ social-network-links:
   rss: true
 
 # Build settings
-theme: jekyll-theme-hydejack
+remote-theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.0.4
 plugins:
   - jekyll-feed
