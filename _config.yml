@@ -18,18 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shefali Srivastava
+title: Shefali Srivastava's World
 email: shefali9625@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! Welcome to my world.
-  Swipe right!
+  Welcome to my developer world! Swip right <-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  sshefs02
 
+
+social-network-links:
+  email: "shefali9625@gmail.com"
+  facebook: shefu96
+  github: sshefs02
+  twitter: shefoofoo
+  rss: true
+
 # Build settings
-remote-theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.0.4
 plugins:
   - jekyll-feed
