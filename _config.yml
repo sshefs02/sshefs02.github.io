@@ -36,7 +36,7 @@ facebook_username: shefu96
 #   rss: true
 
 # Build settings
-remote-theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.0.4
 plugins:
   - jekyll-feed

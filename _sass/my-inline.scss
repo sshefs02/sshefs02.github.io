@@ -1,14 +1,147 @@
 // Uncomment to disable dingbat icons below posts
 // hr.dingbat { display: none }
 
+.round-image {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+/*==================================
+    SIDEBAR
+==================================*/
+
 .sidebar a {
     color: white;
     border-bottom-color: rgba(255,255,255,0.2);
     text-decoration-color: rgba(255,255,255,0.2);
 }
 
-.round-image {
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
+.sidebar-sticky {
+    max-width: 24rem;
+}
+
+/*==================================
+    TIMELINE
+==================================*/
+
+    /*-- GENERAL STYLES
+    ------------------------------*/
+    .timeline {
+        line-height: 1.4em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        h1, h2, h3, h4, h5, h6 {
+            line-height: inherit;
+        }
+    }
+
+    /*----- TIMELINE ITEM -----*/
+
+    .timeline-item {
+        padding-left: 40px;
+        position: relative;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    /*----- TIMELINE INFO -----*/
+
+    .timeline-info {
+        font-size: 0.6em;
+        font-weight: 500;
+        letter-spacing: 3px;
+        margin: 0 0 .5em 0;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    /*----- TIMELINE MARKER -----*/
+
+    .timeline-marker {
+        position: absolute;
+        top: 0; bottom: 0; left: 0;
+        width: 15px;
+    }
+    .timeline-marker::before {
+        background: #00BFFF;
+        border: 3px solid transparent;
+        border-radius: 100%;
+        content: "";
+        display: block;
+        height: 15px;
+        position: absolute;
+        top: 4px; left: 0;
+        width: 15px;
+        transition: background 0.3s ease-in-out,
+                border 0.3s ease-in-out;
+    }
+    .timeline-marker::after {
+        content: "";
+        width: 3px;
+        background: #CCD5DB;
+        display: block;
+        position: absolute;
+        top: 24px; bottom: 0; left: 6px;
+    }
+    .timeline-item:not(.period):hover .timeline-marker:before {
+        background: transparent;
+        border: 3px solid #00BFFF;
+    }
+
+    /*----- TIMELINE CONTENT -----*/
+
+    .timeline-content {
+        padding-bottom: 40px;
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    /*----- TIMELINE PERIOD -----*/
+    
+    .period {
+        padding: 0;
+    }
+
+    .period > .timeline-info{
+    	display: none;
+    }
+        
+    .period > .timeline-marker::before{
+                background: transparent;
+        content: "";
+        width: 15px;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        top: 0;
+        bottom: 30px;
+        position: absolute;
+        border-top: 2px solid #CCD5DB;
+        border-bottom: 2px solid #CCD5DB;
+   	}
+
+   	.period > .timeline-marker::after{
+        content: "";
+        height: 32px;
+        top: auto;
+   	}
+
+    .period > .timeline-content {
+        padding: 40px 0 70px;
+    }
+
+	.period > .timeline-title {
+       	margin: 0;
+       }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sidebar-heading {
+        text-align: center;
+    }
 }
