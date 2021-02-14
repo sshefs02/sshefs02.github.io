@@ -3,21 +3,21 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
+name: Shefali Srivastava
+title: Software Developer II
+email: shefali9625@gmail.com
+phone: (+919818743568)
 cv   : "resume.pdf"
 #website: Your website (eg. https://google.com)(optional)
 
 # Social links
-#twitter_username: jekyllrb
-github_username:  moya10
+twitter_username: shefoofoo
+github_username:  sshefs02
 #dribbble_username: jekyll
-#facebook_username: jekyll
+facebook_username: jekyll
 #flickr_username: jekyll
-#instagram_username: jekyll
-#linkedin_username: jekyll
+instagram_username: shefalisrivastavaofficial
+linkedin_username: shefalisri
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -27,13 +27,17 @@ github_username:  moya10
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add links and highlight things <mark>like this</mark>.
+  I am an incoming Masters student of Computer Science at Georgia Tech for Fall 2021. My research interests are in developing reliable and sustainable machine learning and computer vision systems that can be deployed in the real world. Specifically, I am interested in computer vision assisted medical imaging, 3D reconstructions, vision applications in biometrics and vision coupled with natural language processing.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - [My Awesome Resume](https://moya10.github.io/awesome-cv/resume.pdf)
-    - Tables
-    - Links
-    - Images
+  I’m an avid software developer currently working with Adobe Systems. At Adobe, I work in the Digital Experience (DX) Cloud responsible for user experience. As a part of team Flow Service, I am responsible to ensure smooth data ingestion to Adobe Experience Platform (AEP) from multiple third party data sources. I also hold the sole ownership of open-source ETL SDK provided by Adobe to ingest data in Adobe standard XDM format onto AEP. The SDK is available here.
+
+  I earned my Bachelor’s in Information Technology in Spring’18 at Netaji Subhas Institute of Technology, Delhi University, where I was advised by Prof. Deepak Kumar Sharma on developing intelligent ML based optimised routing algorithms for Opportunistic Networks.
+
+  During the 3rd year of undergraduate degree, I spent one wonderful winter doing research in point-to-point matching for 3D image reconstruction at the Visual and Parallel Computing Lab at the University of Georgia (UGA), advised by Prof. Suchendra M. Bhandarkar. The research results are published here. Post return, I continued to enhance the algorithm developed at UGA by employing end-to-end deep learning. The results are published here.
+
+  In my free time, I continue to work on my interests in Machine Learning, Computer Vision and Natural Language Processing by taking up the latest courses and reading the latest research publications in these areas. My most recent achievement is a Patent Approval for my Project "BERTMap: Automatic Schema Mapping based on Semantic Data Type Detection".
+
+  My CV is available [here](https://sshefs02.github.io/sshefs02.github.io/resume.pdf). Feel free to reach out to me at shefali9625@gmail.com.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
