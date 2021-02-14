@@ -1,6 +1,12 @@
 <div class="row clearfix layout layout-publications">
-  <div class="hey">
-    {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
+  <div class="row clearfix">
+    {%- if include.item.image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="publication-img" style="background-image: url({{ include.item.image }})" />
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+    {%- if include.item.name-%}<h4>{{ include.item.name }}</h4>{%- endif -%}
     {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
     {%- if include.item.link -%}
       {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
@@ -26,5 +32,6 @@
       <p class="quote">{{ include.item.quote }}</p>
     {%- endif -%}
     {{ include.item.description | strip | markdownify }}
+  </div>
   </div>
 </div>
