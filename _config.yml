@@ -25,7 +25,7 @@ linkedin_username: shefalisri
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am an incoming Masters student of Computer Science at Georgia Tech for Fall 2021. My research interests are in developing reliable and sustainable machine learning and computer vision systems that can be deployed in the real world. Specifically, I am interested in computer vision assisted medical imaging, 3D reconstructions, vision applications in biometrics and vision coupled with natural language processing.
 
