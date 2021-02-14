@@ -1,0 +1,28 @@
+# Publications Template
+- layout: publicationslayout
+  name: "BERTMap: Automatic Schema Mapping based on Semantic Data Type Detection"
+  author: Shefali Srivastava*, Simran Aggarwal*, Rishika Karira
+
+- layout: publicationslayout
+  name: "BeamAtt: Generating Medical Diagnosis from Chest X-Rays using Sampling Based Intelligence"
+  author: Aman Sawarn, Shefali Srivastava, Monika Gupta, Smriti Srivastava
+
+- layout: publicationslayout
+  name: "Neural Network based Routing Protocol for Opportunistic Networks with Intelligent Water Drop Optimization"
+  author: Shefali Srivastava*, Shubham Kumaram*, Deepak Kumar Sharma
+
+- layout: publicationslayout
+  name: "Matching Disparate Image Pairs using Shape Aware Conv-Nets"
+  author: Shefali Srivastava*, Abhimanyu Chopra*, Arun C.S. Kumar, Suchendra M. Bhandarkar, Deepak Sharma
+
+- layout: publicationslayout
+  name: "Deep Spectral Correspondence for Matching Disparate Image Pairs"
+  author: Arun C.S. Kumar*, Shefali Srivastava*, Anirban Mukhopadhyay, Suchendra M. Bhandarkar
+
+- layout: publicationslayout
+  name: "Biometric authentication using local sub- space adaptive histogram equalization"
+  author: Gopal Chaudhary, Shefali Srivastava, Smriti Srivastava
+
+- layout: publicationslayout
+  name: "Information Fusion in Animal Biometric Identification"
+  author: Gopal Chaudhary, Smriti Srivastava, Saurabh Bhardwaj, Shefali Srivastava

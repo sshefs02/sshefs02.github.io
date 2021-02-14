@@ -1,12 +1,12 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: sshefs02.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Shefali Srivastava
-title: Software Developer II
+title: Incoming Grad Student - MSCS, Georgia Tech
 email: shefali9625@gmail.com
-phone: (+919818743568)
+phone: "+919818743568"
 cv   : "resume.pdf"
 #website: Your website (eg. https://google.com)(optional)
 
@@ -38,6 +38,9 @@ about_content: | # this will include new lines to allow paragraphs
   In my free time, I continue to work on my interests in Machine Learning, Computer Vision and Natural Language Processing by taking up the latest courses and reading the latest research publications in these areas. My most recent achievement is a Patent Approval for my Project "BERTMap: Automatic Schema Mapping based on Semantic Data Type Detection".
 
   My CV is available [here](https://sshefs02.github.io/sshefs02.github.io/resume.pdf). Feel free to reach out to me at shefali9625@gmail.com.
+
+# Publications Section
+# publications_title: Publications #(Use this to override about projects section title)
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
