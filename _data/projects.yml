@@ -7,6 +7,7 @@
   #   Short overview of the project (optional)
   # description: | # this will include new lines to allow paragraphs
   #   Description about the work on/with the project
+  insert-line: true
 
 - layout: projectslayout
   name: Stock Market prediction using Neural Networks
@@ -17,6 +18,7 @@
     Comparison of Multi-Layer Feed Forward Neural Network with Radial Basis Function Neural Networks to approximate highly non-linear functions.
   description: | # this will include new lines to allow paragraphs
     In the financial sector, the sales price forecasting is a hot issue. Since the indices associated with the stock are nonlinear and are affected by various internal and external factors, they are very difficult to model and pose a difficult problem to be solved by the researchers. This project is devoted to designing an intelligent prediction model based on the radial basis function network (RBFN). To tune its parameters a learning algorithm is developed using the back-propagation (BP) method. The performance of the proposed method is also compared with that of the multi-layered feed-forward neural network (MLFFNN) containing only a single hidden layer and the results obtained from the simulation study indicate that the performance of RBFN is better as compared to the MLFFNN model.
+  insert-line: true
 
 - layout: projectslayout
   name: Multimodal biometric system with new Palm-Phalanges Database
@@ -26,3 +28,4 @@
   #   Short overview of the project (optional)
   # description: | # this will include new lines to allow paragraphs
   #   Description about the work on/with the project
+  insert-line: false

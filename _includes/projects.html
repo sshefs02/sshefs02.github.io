@@ -2,5 +2,6 @@
   <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+    {%- if project.insert-line -%}<hr>{%- endif -%}
   {% endfor %}
 </div>
