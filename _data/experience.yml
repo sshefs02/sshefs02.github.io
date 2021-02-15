@@ -1,10 +1,22 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: Adobe Systems
+  # link: https://www.adobe.com/
+  job_title: Software Developer II
+  dates: July 2018 - present
+  # quote: >
+    # Adobe Digital Experience
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Worked as a part of team Flow-Service in Digital Experience to ingest data from multiple third party sources onto Adobe Experience Platform. Worked closely with Informatica on ETL-SDK provided by Adobe to ingest data in Adobe standard XDM format onto Adobe Cloud available as open source on github. Also Implemented framework for data transfer to One Data Model as part of a cross company partnership of Open Data Initiative between Adobe, Microsoft and SAP.
+
+- layout: left
+  company: Royal Bank of Scotland
+  # link: https://www.adobe.com/
+  job_title: Software Development Intern
+  dates: May 2017 - July 2017
+  # quote: >
+    # Adobe Digital Experience
+  description: | # this will include new lines to allow paragraphs
+    Created a Dashboard for Support Team of Corporate Business Data Mart (CBDM) Department for identification of timely incoming of
+    Upstream feeds and generation of extracts for downstream services using Oracle PL/SQL and Oracle APEX. Also implemented small level
+    design of OLAP Cubes.

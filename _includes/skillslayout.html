@@ -1,5 +1,5 @@
 <div class="row clearfix layout layout-publications">
-  <div class="row clearfix">
+  <!-- <div class="row clearfix">
     {%- if include.item.image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">
         <span class="publication-img" style="background-image: url({{ include.item.image }})" />
@@ -26,13 +26,18 @@
         </a>
       </p>
     {%- endif -%}
-  </div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-    {%- if include.item.quote -%}
+  </div> -->
+  <div align="center">
+    <!-- {%- if include.item.quote -%}
       <p class="quote">{{ include.item.quote }}</p>
     {%- endif -%}
-    {{ include.item.description | strip | markdownify }}
-    <button class="publication-paper-button"><a href="{{ include.item.paper-link }}">Paper</a></button>
+    {{ include.item.description | strip | markdownify }} -->
+    <button class="skill-button">{{ include.item.skill }}</button>
+    <button class="skill-button">{{ include.item.skill2 }}</button>
+    <button class="skill-button">{{ include.item.skill3 }}</button>
+    <button class="skill-button">{{ include.item.skill4 }}</button>
+
+
   </div>
   </div>
 </div>

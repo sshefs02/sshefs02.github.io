@@ -225,3 +225,49 @@ p.quote {
     margin-top: 1em;
   }
 }
+
+p.project_desc {
+  // font-size: 1.4em;
+  // font-style: italic;
+  padding: 1em 2.5em;
+  text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0em 1em;
+    margin-top: 1em;
+  }
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.publication-paper-button {
+  background-color: #e7e7e7; /* Gray */
+  // background-color: #FFFFFF; /* White */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.skill-button {
+  background-color: #e7e7e7; /* Gray */
+  // background-color: #FFFFFF; /* White */
+  border: none;
+  color: #FF3380;
+  padding: 15px 32px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}

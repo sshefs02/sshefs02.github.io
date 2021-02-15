@@ -1,9 +1,28 @@
 # Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+- layout: projectslayout
+  name: "Project Based Learning to Biometrics: Analysis of scenarios affecting performance of Speaker Recognition systems."
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # quote: >
+  #   Short overview of the project (optional)
+  # description: | # this will include new lines to allow paragraphs
+  #   Description about the work on/with the project
+
+- layout: projectslayout
+  name: Stock Market prediction using Neural Networks
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github: sshefs02/Stock-Market-Prediction-Using-Neural-Networks
+  image: images/projects/stockmarket.PNG
   quote: >
-    Short overview of the project (optional)
+    Comparison of Multi-Layer Feed Forward Neural Network with Radial Basis Function Neural Networks to approximate highly non-linear functions.
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    In the financial sector, the sales price forecasting is a hot issue. Since the indices associated with the stock are nonlinear and are affected by various internal and external factors, they are very difficult to model and pose a difficult problem to be solved by the researchers. This project is devoted to designing an intelligent prediction model based on the radial basis function network (RBFN). To tune its parameters a learning algorithm is developed using the back-propagation (BP) method. The performance of the proposed method is also compared with that of the multi-layered feed-forward neural network (MLFFNN) containing only a single hidden layer and the results obtained from the simulation study indicate that the performance of RBFN is better as compared to the MLFFNN model.
+
+- layout: projectslayout
+  name: Multimodal biometric system with new Palm-Phalanges Database
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  # github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  # quote: >
+  #   Short overview of the project (optional)
+  # description: | # this will include new lines to allow paragraphs
+  #   Description about the work on/with the project
