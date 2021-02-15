@@ -3,6 +3,7 @@
   name: Netaji Subhas Institute of Technology, Delhi University
   dates: August 2014 - June 2018
   qualification: "BE in Information Technology, CGPA - 9.4/10"
+  logo: images/education/nsit.PNG
   # quote: >
     # Short institution or course description (optional)
   # description: | # this will include new lines to allow paragraphs
@@ -13,6 +14,7 @@
   dates: April 2000 - June 2014
   qualification: "Class XII, 96%"
   qualification2: "Class X, CGPA - 10/10"
+  logo: images/education/dps.PNG
 
   # quote: >
   #   Short institution or course description
