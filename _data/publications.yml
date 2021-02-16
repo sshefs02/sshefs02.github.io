@@ -7,6 +7,7 @@
 
 - layout: publicationslayout
   name: "Neural Network based Routing Protocol for Opportunistic Networks with Intelligent Water Drop Optimization"
+  github-link: sshefs02/IWDNN
   author: Shefali Srivastava*, Shubham Kumaram*, Deepak Kumar Sharma
   image: images/publications/iwdnn.jpg
   paper-link: https://onlinelibrary.wiley.com/doi/abs/10.1002/dac.4368

@@ -35,6 +35,9 @@
     {%- if include.item.paper-link -%}
       <button class="publication-paper-button"><a href="{{ include.item.paper-link }}">Paper</a></button>
     {%- endif -%}
+    {%- if include.item.github-link -%}
+      <button class="publication-paper-button"><a href="{{ include.item.github-link }}">Code</a></button>
+    {%- endif -%}
   </div>
   </div>
 </div>
