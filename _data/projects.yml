@@ -8,6 +8,8 @@
   # description: | # this will include new lines to allow paragraphs
   #   Description about the work on/with the project
   insert-line: true
+  description: |
+     A successful training program was developed for pre-final semester undergraduate students based on project based learning (PBL). Such demonstrations play an important role in teaching practical concepts and skills in engineering. For this biometrics has been chosen as a case study. Biometrics is the science and technology of measuring and analyzing biological data. In information technology, biometrics refers to technologies that measure and analyze human body characteristics, such as DNA, fingerprints, eye retinas and irises, voice patterns, facial patterns and hand measurements, for authentication purposes. The success of the program relies on a centralized approach for generating a live biometric system that includes understanding the system, data collection, feature extraction, modeling the system, and analyzing different scenario affecting the performance of system. This provides a platform for students to develop their creativity in designing Biometric Laboratory. It also offers real-life applications to be used for raising general public security and identification systems.
 
 - layout: projectslayout
   name: Stock Market prediction using Neural Networks
@@ -28,4 +30,9 @@
   #   Short overview of the project (optional)
   # description: | # this will include new lines to allow paragraphs
   #   Description about the work on/with the project
+  image: images/projects/multimodalpalmprint.PNG
   insert-line: false
+  quote: >
+    Construction of Palm Print Database and Application of Simple ML Algorithms for Biometric Identification at NSIT
+  description: |
+    To ensure the high performance of a biometric system, various unimodal systems are combined to evade their constraints to form a multimodal biometric system. Here, a multimodal personal authentication system using palmprint, dorsal hand vein pattern and a novel biometric modality “palm-phalanges print” is presented. Firstly, we have collected a new anterior hand database of 50 individuals with 500 images at the institute referred to as NSIT Palmprint Database 1.0 by using NSIT palmprint device. Then from these anterior hand images, database for palmprint and palm-phalanges is created. In this biometric system, the individuals do not have to undergo the distress of using two different sensors since the palmprint and palm-phalanges print features can be captured from the same image, using NSIT palmprint device, at the same time. For dorsal hand vein, Bosphorus Hand Vein Database is used because of the stability and uniqueness of hand vein patterns. We propose fusion of three different biometric modalities which includes palmprint (PP), palm-phalanges print (PPP) and dorsal hand vein (DHV) and perform score level fusion of PP-PPP, PP-DHV, PPP-DHV and PP-PPP-DHV strategies. Lastly, we use K-nearest neighbor, support vector machine and random forest to validate the matching stage. The results proved the validity of our proposed modality and show that multimodal fusion has an edge over unimodal fusion.
