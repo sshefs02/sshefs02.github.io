@@ -4,7 +4,7 @@ repository: sshefs02.github.io
 
 # Personal info
 name: Shefali Srivastava
-title: Incoming Grad Student - MSCS, Georgia Tech
+title: Incoming Grad Student - MSCV, Carnegie Mellon University
 email: shefali9625@gmail.com
 phone: "+919818743568"
 cv   : "resume.pdf"
@@ -27,7 +27,7 @@ linkedin_username: shefalisri
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am an incoming Masters student of Computer Science at Georgia Tech for Fall 2021. My research interests are in developing reliable and sustainable machine learning and computer vision systems that can be deployed in the real world. Specifically, I am interested in computer vision assisted medical imaging, 3D reconstructions, vision applications in biometrics and vision coupled with natural language processing.
+  I am an incoming Masters student of Computer Vision at Carnegie Mellon University for Fall 2021. My research interests are in developing reliable and sustainable machine learning and computer vision systems that can be deployed in the real world. Specifically, I am interested in computer vision assisted medical imaging, 3D reconstructions, vision applications in biometrics and vision coupled with natural language processing.
 
   I’m an avid software developer currently working with Adobe Systems. At Adobe, I work in the Digital Experience (DX) Cloud responsible for user experience. As a part of team Flow Service, I am responsible to ensure smooth data ingestion to Adobe Experience Platform (AEP) from multiple third party data sources. I also hold the sole ownership of open-source ETL SDK provided by Adobe to ingest data in Adobe standard XDM format onto AEP. The SDK is available [here](https://github.com/adobe/experience-platform-etl-reference).
 
